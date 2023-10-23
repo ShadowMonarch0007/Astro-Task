@@ -1,4 +1,347 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif\;
+        /* background: url("img/astro bg.jpg"); */
+        /* background-repeat: no-repeat; */
+}
+
+.navbar {
+    position: fixed !important;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    padding: 0% !important;
+    color: white;
+    height: 5rem;
+}
+
+.navbar-brand img {
+    margin-left: 0.5rem !important;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.navbar-nav {
+    padding-left: 55% !important;
+}
+
+.navbar-toggler {
+    margin-right: 1rem;
+}
+
+.navbar-toggler-icon {
+    display: inline-block !important;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    vertical-align: middle !important;
+    background-image: var(--bs-navbar-toggler-icon-bg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+}
+
+.bg-body-tertiary {
+    background-color: #fff !important;
+    --bs-bg-opacity: 1 !important;
+}
+
+.navbar-nav {
+    background-color: #fff;
+}
+
+.nav-link {
+    padding: 1rem !important;
+    font-size: 1.3rem !important;
+    color: #000 !important;
+    font-weight: 700;
+}
+
+.carousel {
+    position: absolute;
+    padding-top: 5rem;
+}
+
+.carousel-item img {
+    height: 30rem;
+}
+
+.heading {
+    border-bottom: 1.75px solid #000;
+}
+
+.heading h1 {
+    font-size: 4rem;
+    font-weight: 200;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+#home {}
+
+#blogs {
+    padding-top: 7.5% !important;
+}
+
+.blog_cnt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2.5rem 1rem;
+    /* border: solid 0.15rem #000; */
+    border-radius: 2rem;
+    box-shadow: rgb(204, 219, 232) 3px 3px 15px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 15px 1px inset;
+}
+
+.blog_cnt:hover {
+    box-shadow: 25px 25px 50px -16px rgb(38, 57, 77);
+}
+
+.blog_cnt_inv {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2.5rem 1rem;
+    /* border: solid 0.15rem #000; */
+    border-radius: 2rem;
+    box-shadow: rgb(204, 219, 232) 3px 3px 15px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 15px 1px inset;
+}
+
+.blog_cnt_inv:hover {
+    box-shadow: 25px 25px 50px -16px rgb(38, 57, 77);
+}
+
+.blog_cnt_pic {
+    width: 20%;
+}
+
+.blog_cnt_pic img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 2rem;
+    margin: 1rem 0rem;
+}
+
+.blog_cnt_txt {
+    width: 70%;
+    margin: 2rem 0rem;
+}
+
+.blog_cnt_txt h3 {
+    align-items: center;
+}
+
+.blog_cnt_txt_p {
+    height: 15rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #551342;
+        border-radius: 12px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #fffc97;
+        border-radius: 12px;
+    }
+}
+
+#team {
+    padding-top: 7.5% !important;
+    background: url("https://images.unsplash.com/photo-1638184984605-af1f05249a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#team .heading {
+    color: #fff;
+    border-bottom: 1.75px solid #fff;
+}
+
+.tagline h2 {
+    padding: 1.5rem;
+    color: #b47919;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.teamtailgrid {}
+
+.teamtile {
+    margin: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.teamtile_inv {
+    margin: 0rem 10rem;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.teamtile_lg {
+    width: 50%;
+}
+
+.teamtile_txt {
+    width: 50%;
+    height: 22rem;
+    background: #fff;
+}
+
+.teamtile_lg img {
+    height: 22rem;
+    width: 100%;
+}
+
+.teamtile_txt h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+    font-size: 3eem;
+}
+
+@media only screen and (max-width:1400px) {
+    .navbar {
+        height: 4rem;
+        position: fixed !important;
+    }
+
+    .navbar-brand img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .carousel {
+        padding-top: 4rem;
+    }
+
+    .carousel-item img {
+        height: 15rem;
+    }
+
+    .heading h1 {
+        font-size: 2rem;
+    }
+
+    #blogs {
+        padding-top: 4rem !important;
+    }
+
+    .blog_cnt {
+        flex-direction: column;
+    }
+
+    .blog_cnt_inv {
+        flex-direction: column;
+    }
+
+    .blog_cnt_pic {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog_cnt_pic img {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 2rem;
+        margin: 1rem 0rem;
+    }
+
+    .blog_cnt_txt {
+        width: 100%;
+    }
+
+    .blog_cnt_txt h3 {
+        display: flex;
+        justify-content: center !important;
+        font-size: 1.5rem;
+    }
+
+    .blog_cnt_txt_p {
+        height: 10rem;
+        width: 80%;
+        margin: 0rem 2rem;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #551342;
+            border-radius: 12px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #fffc97;
+            border-radius: 12px;
+        }
+    }
+
+    .blog_cnt_txt_p p {
+        font-size: 1rem;
+    }
+
+    .tagline h2 {
+        font-size: 1rem;
+    }
+
+    .teamtile {
+        /* flex-direction: column-reverse; */
+        margin: 0 2rem;
+    }
+
+    .teamtile_inv {
+        /* flex-direction: column-reverse; */
+        margin: 0 2rem;
+    }
+
+    .teamtile_lg {
+        width: 50%;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+    }
+
+    .teamtile_txt {
+        width: 50%;
+        height: 8rem;
+    }
+
+    .teamtile_lg img {
+        height: 8rem;
+        width: 100%;
+    }
+
+    .teamtile_txt h2 {
+        font-size: 0.8rem;
+        margin-top: 33%;
+    }
 }

@@ -400,6 +400,108 @@ body {
     font-size: 3eem;
 }
 
+footer {
+    background: #deded5;
+}
+
+.container {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.p-4 {
+    padding: 0.75rem !important;
+}
+
+.col-lg-6 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
+.footerimg {
+    width: 25%;
+    margin: auto 0;
+}
+
+.footertails {
+    width: 75%;
+    position: relative;
+    text-align: center;
+    margin: auto 3rem;
+}
+
+.col-lg-6 img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+footer h5 {
+    color: #818963;
+    font-size: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 0 !important;
+}
+
+.col-lg-3 {
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
+.mb-1 a {
+    color: #4f4f4f;
+    text-decoration: none !important;
+}
+
+.lnk {
+    position: relative;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.list {
+    position: relative;
+    text-align: center;
+}
+
+.col-lg-2 {
+    margin: 1.5rem auto 0 auto !important;
+}
+
+.followheading {
+    position: relative;
+    text-align: center;
+}
+
+.socialinks {
+    position: relative;
+    align-items: center;
+}
+
+.socialinks i {
+    margin: auto 0.2rem;
+}
+
+.emailinfo {
+    display: flex;
+}
+
+.emailinfo i {
+    margin: auto 1rem 0 0.2rem;
+}
+
+.address {
+    position: relative;
+    text-align: center;
+}
+
+.text-center {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 @media only screen and (max-width:1400px) {
     .navbar {
         height: 4rem;
@@ -593,5 +695,58 @@ body {
     .teamtile_txt h2 {
         font-size: 0.8rem;
         margin-top: 33%;
+    }
+
+    footer h5 {
+        font-size: 1.2rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+        border-right: none;
+        padding: 0.5rem;
+    }
+
+    .col-lg-6 img {
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .footerimg {
+        width: 50%;
+    }
+
+    .footertails {
+        width: 50%;
+        margin: auto 0.1rem;
+    }
+
+    .col-lg-2,
+    .col-lg-3 {
+        width: 50% !important;
+    }
+
+    .list li {
+        font-size: 0.8rem;
+    }
+
+    .address {
+        font-size: 0.8rem;
+    }
+
+    .emailinfo i {
+        margin: auto 0.3rem 0 0.2rem;
+    }
+
+    .lnk {
+        margin-top: 1.2rem;
+    }
+
+    .col-lg-2 {
+        margin: 1rem auto 0 auto !important;
     }
 }

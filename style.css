@@ -71,9 +71,14 @@ body {
     padding-top: 5rem;
 }
 
+.carousel-img{
+    display: flex;
+    justify-content: center;
+}
+
 .carousel-item img {
     height: 30rem;
-    padding: 0rem 30rem;
+    width: 30rem !important;
 }
 
 .heading {
@@ -277,6 +282,11 @@ body {
     padding-top: 1rem !important;
 }
 
+/* #achievments .carousel-item img {
+    height: 20rem;
+    width: 20rem !important;
+} */
+
 .acv_cnt {
     display: flex;
     flex-direction: row;
@@ -323,8 +333,8 @@ body {
 }
 
 .acv_cnt_pic img {
-    height: 12rem;
-    width: 12rem;
+    height: 12rem !important;
+    width: 15rem !important;
     border-radius: 2rem;
     margin: 1rem 0rem;
     padding: 0 !important;
@@ -574,7 +584,7 @@ a.text-dark {
 
     .carousel-item img {
         height: 20rem;
-        padding: 0rem 3rem;
+        width: 20rem !important;
     }
 
     .heading h1 {
@@ -644,8 +654,8 @@ a.text-dark {
     }
 
     .acv_cnt_pic img {
-        height: 10rem;
-        width: 10rem;
+        height: 10rem !important;
+        width: 15rem !important;
         margin: 0.5rem 0;
     }
 

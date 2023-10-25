@@ -330,6 +330,101 @@ body {
     position: relative;
     text-align: left;
 }
+#achievments{
+    padding-top: 5% !important;
+    padding-bottom: 10rem;
+}
+#achievments .carousel{
+    padding-top: 1rem !important;
+}
+.acv_cnt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1.5rem auto;
+    border-radius: 2rem;
+    box-shadow: rgb(204, 219, 232) 3px 3px 15px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 15px 1px inset;
+    background: url("https://images.unsplash.com/photo-1536514498073-50e69d39c6cf?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin-bottom: 2rem;
+
+}
+
+.acv_cnt:hover {
+    box-shadow: 25px 25px 50px -16px rgb(38, 57, 77);
+}
+
+.acv_cnt_inv {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1.5rem auto;
+    border-radius: 2rem;
+    box-shadow: rgb(204, 219, 232) 3px 3px 15px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 15px 1px inset;
+    background: url("https://images.unsplash.com/photo-1536514498073-50e69d39c6cf?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.acv_cnt_inv:hover {
+    box-shadow: 25px 25px 50px -16px rgb(38, 57, 77);
+}
+
+.acv_cnt_pic {
+    width: 20%;
+}
+
+.acv_cnt_pic img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 2rem;
+    margin: 1rem 0rem;
+    padding: 0 !important;
+}
+
+.acv_cnt_txt {
+    width: 70%;
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.acv_cnt_txt h3 {
+    position: relative;
+    text-align: center;
+    color: #bb7711;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.acv_cnt_txt p {
+    position: relative;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.acv_cnt_txt_p {
+    margin: 0.5rem 0;
+    height: 4rem;
+}
+
+#achievments .carousel-control-prev-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/271/271220.png") !important;
+}
+
+#achievments .carousel-control-next-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/271/271228.png") !important;
+}
 
 #team {
     padding-top: 7.5% !important;
@@ -337,6 +432,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-bottom: 5rem;
 }
 
 #achievments .heading,
@@ -700,6 +796,39 @@ a.text-dark{
     .teamtile_txt h2 {
         font-size: 0.8rem;
         margin-top: 33%;
+    }
+
+    .acv_cnt_pic, .acv_cnt_txt{
+        width: 100%;
+    }
+
+    .acv_cnt_pic img{
+        height: 10rem;
+        width: 10rem;
+        margin: 0.5rem 0;
+    }
+
+    .acv_cnt_pic{
+        display: flex;
+        justify-content: center;
+    }
+
+    .acv_cnt_txt h3{
+        font-size: 1.2rem;
+        margin: 0 !important;
+    }
+
+    .acv_cnt_txt p{
+        font-size: 0.6rem;
+        margin-bottom: 0rem !important;
+    }
+
+    .acv_cnt_txt{
+        margin: 0.5rem 0 !important;
+    }
+
+    .acv_cnt_txt_p{
+        padding: 0 1rem !important;
     }
 
     footer h5 {

@@ -71,7 +71,7 @@ body {
     padding-top: 5rem;
 }
 
-.carousel-img{
+.carousel-img {
     display: flex;
     justify-content: center;
 }
@@ -376,11 +376,9 @@ body {
     background-image: url("https://cdn-icons-png.flaticon.com/128/271/271228.png") !important;
 }
 
-#gallery{
-    
-}
+#gallery {}
 
-#gallery .modal-body img{
+#gallery .modal-body img {
     height: 12rem;
     width: 20rem;
     margin: 2rem auto;
@@ -682,12 +680,12 @@ a.text-dark {
         padding: 0 1rem !important;
     }
 
-    #gallery .modal-body img{
+    #gallery .modal-body img {
         height: 9rem;
         width: 15rem;
         margin: 2rem auto;
     }
-    
+
     .tagline h2 {
         font-size: 1rem;
     }

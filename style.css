@@ -330,13 +330,16 @@ body {
     position: relative;
     text-align: left;
 }
-#achievments{
+
+#achievments {
     padding-top: 5% !important;
     padding-bottom: 10rem;
 }
-#achievments .carousel{
+
+#achievments .carousel {
     padding-top: 1rem !important;
 }
+
 .acv_cnt {
     display: flex;
     flex-direction: row;
@@ -599,7 +602,7 @@ footer h5 {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-a.text-dark{
+a.text-dark {
     color: #fff !important;
 }
 
@@ -762,6 +765,40 @@ a.text-dark{
         font-size: 0.7rem;
     }
 
+    .acv_cnt_pic,
+    .acv_cnt_txt {
+        width: 100%;
+    }
+
+    .acv_cnt_pic img {
+        height: 10rem;
+        width: 10rem;
+        margin: 0.5rem 0;
+    }
+
+    .acv_cnt_pic {
+        display: flex;
+        justify-content: center;
+    }
+
+    .acv_cnt_txt h3 {
+        font-size: 1.2rem;
+        margin: 0 !important;
+    }
+
+    .acv_cnt_txt p {
+        font-size: 0.6rem;
+        margin-bottom: 0rem !important;
+    }
+
+    .acv_cnt_txt {
+        margin: 0.5rem 0 !important;
+    }
+
+    .acv_cnt_txt_p {
+        padding: 0 1rem !important;
+    }
+
     .tagline h2 {
         font-size: 1rem;
     }
@@ -796,39 +833,6 @@ a.text-dark{
     .teamtile_txt h2 {
         font-size: 0.8rem;
         margin-top: 33%;
-    }
-
-    .acv_cnt_pic, .acv_cnt_txt{
-        width: 100%;
-    }
-
-    .acv_cnt_pic img{
-        height: 10rem;
-        width: 10rem;
-        margin: 0.5rem 0;
-    }
-
-    .acv_cnt_pic{
-        display: flex;
-        justify-content: center;
-    }
-
-    .acv_cnt_txt h3{
-        font-size: 1.2rem;
-        margin: 0 !important;
-    }
-
-    .acv_cnt_txt p{
-        font-size: 0.6rem;
-        margin-bottom: 0rem !important;
-    }
-
-    .acv_cnt_txt{
-        margin: 0.5rem 0 !important;
-    }
-
-    .acv_cnt_txt_p{
-        padding: 0 1rem !important;
     }
 
     footer h5 {

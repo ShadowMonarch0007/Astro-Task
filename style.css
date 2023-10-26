@@ -787,6 +787,10 @@ a.text-dark {
         margin: 1rem;
     }
 
+    .team-all-img {
+        margin: 0.8rem 0;
+    }
+
     .teamtile_lg {
         width: 50%;
         background: #fff;

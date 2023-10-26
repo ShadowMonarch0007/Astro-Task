@@ -865,12 +865,10 @@ a.text-dark {
     }
 
     .teamtile {
-        /* flex-direction: column-reverse; */
         margin: 0 2rem;
     }
 
     .teamtile_inv {
-        /* flex-direction: column-reverse; */
         margin: 0 2rem;
     }
 

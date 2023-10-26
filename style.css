@@ -130,7 +130,6 @@ body {
 #blogs {
     padding-top: 5% !important;
     background: url("https://images.unsplash.com/photo-1548625361-58a9b86aa83b?auto=format&fit=crop&q=80&w=2073&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    /* background: url("https://images.unsplash.com/photo-1651154846102-5d5e297cc514?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -217,7 +216,7 @@ body {
 
 .ui-card .description a {
     color: #fff;
-    background: #34aff3;
+    background: #bb7711;
     display: inline-block;
     padding: 10px 25px;
     border-radius: 5px;
@@ -372,6 +371,28 @@ body {
     height: 4rem;
 }
 
+#astronomy {
+    padding-top: 5% !important;
+    padding-bottom: 10%;
+    background: url("https://images.unsplash.com/photo-1503862242163-608ef852091d?auto=format&fit=crop&q=80&w=2040&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.uc {
+    padding: 10rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-4rem);
+}
+
+.uc img {
+    height: 15rem;
+    width: auto;
+}
+
 #gallery {
     padding-top: 5% !important;
     padding-bottom: 10%;
@@ -394,14 +415,6 @@ body {
     background-size: cover;
     background-position: center;
     padding-bottom: 5rem;
-}
-
-#astronomy .heading {
-    border-bottom: 1.75px solid #000;
-}
-
-#astronomy .heading h1 {
-    color: #000;
 }
 
 .tagline h2 {
@@ -430,6 +443,28 @@ body {
     flex-wrap: wrap;
 }
 
+.teamtile-all {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #fff;
+}
+
+.teamtile-all .teamtile_txt h2 {
+    margin-top: 20%;
+}
+
+.team-all-img {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.team-all-img img {
+    width: 85% !important;
+}
+
 .teamtile_lg {
     width: 50%;
 }
@@ -451,6 +486,25 @@ body {
     align-items: center;
     margin-top: 25%;
     font-size: 3rem;
+}
+
+.team-button {
+    display: flex;
+    justify-content: center;
+}
+
+.teamtile_txt a {
+    color: #fff !important;
+    position: relative;
+    text-align: center;
+    background: #bb7711;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    opacity: 0.75;
 }
 
 footer {
@@ -645,11 +699,11 @@ a.text-dark {
         font-size: 0.7rem;
     }
 
-    #achievments{
+    #achievments {
         padding-top: 5rem !important;
     }
 
-    #achievments .carousel-inner{
+    #achievments .carousel-inner {
         height: 45rem;
     }
 
@@ -687,7 +741,20 @@ a.text-dark {
         padding: 0 1rem !important;
     }
 
-    #gallery{
+    #astronomy {
+        padding-top: 5rem !important;
+    }
+
+    .uc {
+        padding: 14rem 0;
+        /* transform: translateY(-4rem); */
+    }
+
+    .uc img {
+        height: 11rem;
+    }
+
+    #gallery {
         padding-top: 5rem !important;
         padding-bottom: 12rem;
     }
@@ -698,7 +765,7 @@ a.text-dark {
         margin: 2rem auto;
     }
 
-    #team{
+    #team {
         padding-top: 5rem !important;
     }
 
@@ -714,6 +781,10 @@ a.text-dark {
     .teamtile_inv {
         /* flex-direction: column-reverse; */
         margin: 0 2rem;
+    }
+
+    .teamtile-all {
+        margin: 1rem;
     }
 
     .teamtile_lg {
@@ -736,6 +807,12 @@ a.text-dark {
     .teamtile_txt h2 {
         font-size: 0.8rem;
         margin-top: 30%;
+    }
+
+    .teamtile_txt a {
+        font-size: 0.7rem;
+        width: 6rem;
+        padding: 0.25rem 0.5rem;
     }
 
     footer h5 {

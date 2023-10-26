@@ -380,19 +380,6 @@ body {
     background-position: center;
 }
 
-.uc {
-    padding: 10rem 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    transform: translateY(-4rem);
-}
-
-.uc img {
-    height: 15rem;
-    width: auto;
-}
-
 #gallery {
     padding-top: 5% !important;
     padding-bottom: 10%;

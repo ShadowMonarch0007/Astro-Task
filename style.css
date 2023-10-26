@@ -185,12 +185,10 @@ body {
 
 .ui-card-img img {
     max-width: 100%;
-    transition: all 0.6s ease-out;
 }
 
-.ui-card-img:hover img {
-    transform: scale(1.6) translateY(0px);
-    opacity: 0.5
+.ui-card:hover .ui-card-img img{
+    opacity: 0.6;
 }
 
 .ui-card .description {
@@ -374,10 +372,67 @@ body {
 #astronomy {
     padding-top: 5% !important;
     padding-bottom: 10%;
-    background: url("https://images.unsplash.com/photo-1503862242163-608ef852091d?auto=format&fit=crop&q=80&w=2040&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("https://images.unsplash.com/photo-1504333638930-c8787321eee0?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.astronomy-article{
+    width: 80% !important;
+    margin: 2rem auto;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #551342;
+        border-radius: 12px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #fffc97;
+        border-radius: 12px;
+    }
+}
+.astronomy-article-bar{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.astronomy-article-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.astronomy-article-box{
+    margin: 2rem 4rem;
+}
+.astronomy-article-card img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+.astronomy-article-box:hover .astronomy-article-card img{
+    opacity: 0.75;
+}
+.astronomy-article-card{
+    position: relative;
+    text-align: center;
+}
+.astronomy-article-box:hover .astronomy-article-card h2{
+    transform: translateY(-5.5rem);
+    opacity: 1;
+    transition: all 0.3s ease-out 0.4s;
+}
+.astronomy-article-card h2{
+    color: #fff;
+    font-size: 1.5rem;
+    opacity: 0;
+    transform: translateY(0);
+    transition: all 0.3s ease-out;
 }
 
 #gallery {
@@ -785,15 +840,11 @@ a.text-dark {
 
     #astronomy {
         padding-top: 5rem !important;
+        padding-bottom: 12rem;
     }
 
-    .uc {
-        padding: 14rem 0;
-        /* transform: translateY(-4rem); */
-    }
-
-    .uc img {
-        height: 11rem;
+    .astronomy-article-box{
+        margin:1rem;
     }
 
     #gallery {

@@ -123,7 +123,7 @@ body {
 
 #blogs {
     padding-top: 5% !important;
-    background: url("https://images.unsplash.com/photo-1548625361-58a9b86aa83b?auto=format&fit=crop&q=80&w=2073&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("background/blogs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -153,12 +153,8 @@ body {
 }
 
 .ser {
-    /* height: 25rem; */
-    /* width: 120rem; */
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
 }
 
 .ui-card {
@@ -268,7 +264,7 @@ body {
 #achievments {
     padding-top: 5% !important;
     padding-bottom: 5rem;
-    background: url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("background/achievments.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -290,7 +286,7 @@ body {
     margin: 1.5rem auto;
     border-radius: 2rem;
     box-shadow: rgb(38, 57, 77) 3px 3px 15px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 15px 1px inset;
-    background: url("https://images.unsplash.com/photo-1536514498073-50e69d39c6cf?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("background/achievments-cloud.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -311,7 +307,7 @@ body {
     margin: 1.5rem auto;
     border-radius: 2rem;
     box-shadow: rgb(38, 57, 77) 3px 3px 15px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 15px 1px inset;
-    background: url("https://images.unsplash.com/photo-1536514498073-50e69d39c6cf?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("background/achievments-cloud.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -366,7 +362,7 @@ body {
 #astronomy {
     padding-top: 5% !important;
     padding-bottom: 10%;
-    background: url("https://images.unsplash.com/photo-1504333638930-c8787321eee0?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("background/astronomy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -396,7 +392,6 @@ body {
 
 .astronomy-article-bar {
     display: flex;
-    /* justify-content: space-evenly; */
 }
 
 .astronomy-article-col {
@@ -441,7 +436,7 @@ body {
 #gallery {
     padding-top: 5% !important;
     padding-bottom: 10%;
-    background: url("https://images.unsplash.com/photo-1477005264461-b0e201668d92?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("background/gallery.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -455,7 +450,7 @@ body {
 
 #team {
     padding-top: 5% !important;
-    background: url("https://images.unsplash.com/photo-1638184984605-af1f05249a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80");
+    background: url("background/team.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -5,12 +5,7 @@
 }
 
 body {
-    height: 100%;
-    width: 100%;
-    background-color: #fff !important;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif\;
-        /* background: url("img/astro bg.jpg"); */
-        /* background-repeat: no-repeat; */
 }
 
 .navbar {
@@ -95,8 +90,7 @@ body {
 }
 
 #home {
-    /* background: #000000; */
-    background: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?auto=format&fit=crop&q=80&w=2072&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("background/home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -107,7 +101,7 @@ body {
 }
 
 .hometails h1 {
-    background-image: url("https://images.unsplash.com/photo-1462332420958-a05d1e002413?auto=format&fit=crop&q=80&w=1807&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("background/astro-text.jpg");
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -187,7 +181,7 @@ body {
     max-width: 100%;
 }
 
-.ui-card:hover .ui-card-img img{
+.ui-card:hover .ui-card-img img {
     opacity: 0.6;
 }
 
@@ -377,7 +371,8 @@ body {
     background-size: cover;
     background-position: center;
 }
-.astronomy-article{
+
+.astronomy-article {
     width: 80% !important;
     margin: 2rem auto;
     overflow-x: scroll;
@@ -398,36 +393,44 @@ body {
         border-radius: 12px;
     }
 }
-.astronomy-article-bar{
+
+.astronomy-article-bar {
     display: flex;
     /* justify-content: space-evenly; */
 }
-.astronomy-article-col{
+
+.astronomy-article-col {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.astronomy-article-box{
+
+.astronomy-article-box {
     margin: 2rem 4rem;
 }
-.astronomy-article-card img{
+
+.astronomy-article-card img {
     width: 10rem;
     height: 10rem;
     border-radius: 1rem;
 }
-.astronomy-article-box:hover .astronomy-article-card img{
+
+.astronomy-article-box:hover .astronomy-article-card img {
     opacity: 0.75;
 }
-.astronomy-article-card{
+
+.astronomy-article-card {
     position: relative;
     text-align: center;
 }
-.astronomy-article-box:hover .astronomy-article-card h2{
+
+.astronomy-article-box:hover .astronomy-article-card h2 {
     transform: translateY(-5.5rem);
     opacity: 1;
     transition: all 0.3s ease-out 0.4s;
 }
-.astronomy-article-card h2{
+
+.astronomy-article-card h2 {
     color: #fff;
     font-size: 1.5rem;
     opacity: 0;
@@ -843,8 +846,8 @@ a.text-dark {
         padding-bottom: 12rem;
     }
 
-    .astronomy-article-box{
-        margin:1rem;
+    .astronomy-article-box {
+        margin: 1rem;
     }
 
     #gallery {

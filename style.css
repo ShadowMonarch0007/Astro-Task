@@ -507,6 +507,61 @@ body {
     opacity: 0.75;
 }
 
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.team-members-box {
+    border-radius: 1.5rem;
+    width: 45%;
+    height: auto;
+    margin: 0.5rem 0;
+    box-shadow: rgb(38, 57, 77) 3px 3px 15px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 15px 1px inset;
+}
+
+.team-name-heading h6 {
+    position: relative;
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 1.5rem 0;
+}
+
+.team-member-img img {
+    width: 90%;
+    height: 12rem;
+    border-radius: 1.2rem;
+    margin: 0.75rem 5%;
+}
+
+.team-member-name h3 {
+    position: relative;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.team-member-post h4 {
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #bb7711;
+}
+
+.team-member-contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.75rem;
+}
+
+.team-member-contact a {
+    padding: 0;
+    background: transparent;
+}
+
 footer {
     background: #24262b;
     color: #fff;
@@ -817,6 +872,31 @@ a.text-dark {
         font-size: 0.7rem;
         width: 6rem;
         padding: 0.25rem 0.5rem;
+    }
+
+
+    .team-members-box {
+        border-radius: 1rem;
+        margin: 0.5rem 0;
+    }
+
+    .team-name-heading h6 {
+        font-size: 1.4rem;
+        margin: 1rem 0;
+    }
+
+    .team-member-img img {
+        height: 8rem;
+        border-radius: 0.8rem;
+    }
+
+    .team-member-name h3 {
+        font-size: 0.75rem;
+    }
+
+    .team-member-post h4 {
+        font-size: 0.6rem;
+        font-weight: 500;
     }
 
     footer h5 {
